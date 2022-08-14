@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: paymentApi
+  datasource:
+    username: root
+    password: password
+    url: jdbc:mysql://localhost:3306/paymentApi
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: mysql
+payment:
+  api:
+    url: https://httpbin.org/
+
+server:
+  port: 8282
