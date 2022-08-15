@@ -14,6 +14,8 @@
   # What is Purpose of This service 
   This service is mockup service for how we can create a service that support create, retrieve order API with basic Auth applied on selected APIs for order and pay
     Also there a register API that will allow user to register them self, so they can use credentials later on to access order and pay APIs  
+    Adding Actuator endpoints where we can use it features for Prod deployment  
+   for example we can use health endpoint http://localhost:8282/actuator/health to check if the service is up or down if we for example deploying our system using Kubernetes 
   # Technology used 
   
   - Spring Boot version 2.3.7.RELEASE
