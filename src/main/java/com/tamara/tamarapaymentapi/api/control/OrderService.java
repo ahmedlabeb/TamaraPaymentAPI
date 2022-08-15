@@ -27,7 +27,7 @@ public class OrderService {
 	}
 
 	public Order retrieveOrderById(Long orderId) {
-		Optional<Order> order = orderRepository.findById(orderId.intValue());
+		Optional<Order> order = orderRepository.findById(orderId);
 		if(order.isPresent()){
 			return order.get();
 		}

@@ -22,6 +22,7 @@ public class OrderDTO {
 	@Positive
 	private BigDecimal discountAmount;
 
+	@NotNull
 	private List<ItemDTO> items;
 
 }

@@ -18,6 +18,7 @@ public class Order {
 	private BigDecimal totalAmount;
 	private BigDecimal taxAmount;
 	private BigDecimal discountAmount;
+
 	@ManyToMany
 	private Set<Item> items;
 }
